@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C5538F3721BEF7A0001E8C95 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F3621BEF7A0001E8C95 /* AppDelegate.swift */; };
+		C5538F3921BEF7A0001E8C95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F3821BEF7A0001E8C95 /* ViewController.swift */; };
+		C5538F3B21BEF7A1001E8C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5538F3A21BEF7A1001E8C95 /* Assets.xcassets */; };
+		C5538F3E21BEF7A1001E8C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5538F3C21BEF7A1001E8C95 /* Main.storyboard */; };
+		C5538F4A21BEF7A1001E8C95 /* AndroBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F4921BEF7A1001E8C95 /* AndroBarTests.swift */; };
+		C5538F5521BEF7A1001E8C95 /* AndroBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F5421BEF7A1001E8C95 /* AndroBarUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C5538F4621BEF7A1001E8C95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5538F2B21BEF7A0001E8C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5538F3221BEF7A0001E8C95;
+			remoteInfo = AndroBar;
+		};
+		C5538F5121BEF7A1001E8C95 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5538F2B21BEF7A0001E8C95 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C5538F3221BEF7A0001E8C95;
+			remoteInfo = AndroBar;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C5538F3321BEF7A0001E8C95 /* AndroBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndroBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5538F3621BEF7A0001E8C95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C5538F3821BEF7A0001E8C95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C5538F3A21BEF7A1001E8C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C5538F3D21BEF7A1001E8C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C5538F3F21BEF7A1001E8C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5538F4021BEF7A1001E8C95 /* AndroBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AndroBar.entitlements; sourceTree = "<group>"; };
+		C5538F4521BEF7A1001E8C95 /* AndroBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5538F4921BEF7A1001E8C95 /* AndroBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroBarTests.swift; sourceTree = "<group>"; };
+		C5538F4B21BEF7A1001E8C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5538F5021BEF7A1001E8C95 /* AndroBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5538F5421BEF7A1001E8C95 /* AndroBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroBarUITests.swift; sourceTree = "<group>"; };
+		C5538F5621BEF7A1001E8C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C5538F3021BEF7A0001E8C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5538F4221BEF7A1001E8C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5538F4D21BEF7A1001E8C95 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C5538F2A21BEF7A0001E8C95 = {
+			isa = PBXGroup;
+			children = (
+				C5538F3521BEF7A0001E8C95 /* AndroBar */,
+				C5538F4821BEF7A1001E8C95 /* AndroBarTests */,
+				C5538F5321BEF7A1001E8C95 /* AndroBarUITests */,
+				C5538F3421BEF7A0001E8C95 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C5538F3421BEF7A0001E8C95 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C5538F3321BEF7A0001E8C95 /* AndroBar.app */,
+				C5538F4521BEF7A1001E8C95 /* AndroBarTests.xctest */,
+				C5538F5021BEF7A1001E8C95 /* AndroBarUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C5538F3521BEF7A0001E8C95 /* AndroBar */ = {
+			isa = PBXGroup;
+			children = (
+				C5538F3621BEF7A0001E8C95 /* AppDelegate.swift */,
+				C5538F3821BEF7A0001E8C95 /* ViewController.swift */,
+				C5538F3A21BEF7A1001E8C95 /* Assets.xcassets */,
+				C5538F3C21BEF7A1001E8C95 /* Main.storyboard */,
+				C5538F3F21BEF7A1001E8C95 /* Info.plist */,
+				C5538F4021BEF7A1001E8C95 /* AndroBar.entitlements */,
+			);
+			path = AndroBar;
+			sourceTree = "<group>";
+		};
+		C5538F4821BEF7A1001E8C95 /* AndroBarTests */ = {
+			isa = PBXGroup;
+			children = (
+				C5538F4921BEF7A1001E8C95 /* AndroBarTests.swift */,
+				C5538F4B21BEF7A1001E8C95 /* Info.plist */,
+			);
+			path = AndroBarTests;
+			sourceTree = "<group>";
+		};
+		C5538F5321BEF7A1001E8C95 /* AndroBarUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5538F5421BEF7A1001E8C95 /* AndroBarUITests.swift */,
+				C5538F5621BEF7A1001E8C95 /* Info.plist */,
+			);
+			path = AndroBarUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C5538F3221BEF7A0001E8C95 /* AndroBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5538F5921BEF7A1001E8C95 /* Build configuration list for PBXNativeTarget "AndroBar" */;
+			buildPhases = (
+				C5538F2F21BEF7A0001E8C95 /* Sources */,
+				C5538F3021BEF7A0001E8C95 /* Frameworks */,
+				C5538F3121BEF7A0001E8C95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndroBar;
+			productName = AndroBar;
+			productReference = C5538F3321BEF7A0001E8C95 /* AndroBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C5538F4421BEF7A1001E8C95 /* AndroBarTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5538F5C21BEF7A1001E8C95 /* Build configuration list for PBXNativeTarget "AndroBarTests" */;
+			buildPhases = (
+				C5538F4121BEF7A1001E8C95 /* Sources */,
+				C5538F4221BEF7A1001E8C95 /* Frameworks */,
+				C5538F4321BEF7A1001E8C95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5538F4721BEF7A1001E8C95 /* PBXTargetDependency */,
+			);
+			name = AndroBarTests;
+			productName = AndroBarTests;
+			productReference = C5538F4521BEF7A1001E8C95 /* AndroBarTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C5538F4F21BEF7A1001E8C95 /* AndroBarUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C5538F5F21BEF7A1001E8C95 /* Build configuration list for PBXNativeTarget "AndroBarUITests" */;
+			buildPhases = (
+				C5538F4C21BEF7A1001E8C95 /* Sources */,
+				C5538F4D21BEF7A1001E8C95 /* Frameworks */,
+				C5538F4E21BEF7A1001E8C95 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C5538F5221BEF7A1001E8C95 /* PBXTargetDependency */,
+			);
+			name = AndroBarUITests;
+			productName = AndroBarUITests;
+			productReference = C5538F5021BEF7A1001E8C95 /* AndroBarUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5538F2B21BEF7A0001E8C95 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Ayush Singh";
+				TargetAttributes = {
+					C5538F3221BEF7A0001E8C95 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					C5538F4421BEF7A1001E8C95 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C5538F3221BEF7A0001E8C95;
+					};
+					C5538F4F21BEF7A1001E8C95 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = C5538F3221BEF7A0001E8C95;
+					};
+				};
+			};
+			buildConfigurationList = C5538F2E21BEF7A0001E8C95 /* Build configuration list for PBXProject "AndroBar" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C5538F2A21BEF7A0001E8C95;
+			productRefGroup = C5538F3421BEF7A0001E8C95 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C5538F3221BEF7A0001E8C95 /* AndroBar */,
+				C5538F4421BEF7A1001E8C95 /* AndroBarTests */,
+				C5538F4F21BEF7A1001E8C95 /* AndroBarUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C5538F3121BEF7A0001E8C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5538F3B21BEF7A1001E8C95 /* Assets.xcassets in Resources */,
+				C5538F3E21BEF7A1001E8C95 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5538F4321BEF7A1001E8C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5538F4E21BEF7A1001E8C95 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C5538F2F21BEF7A0001E8C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5538F3921BEF7A0001E8C95 /* ViewController.swift in Sources */,
+				C5538F3721BEF7A0001E8C95 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5538F4121BEF7A1001E8C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5538F4A21BEF7A1001E8C95 /* AndroBarTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5538F4C21BEF7A1001E8C95 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5538F5521BEF7A1001E8C95 /* AndroBarUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C5538F4721BEF7A1001E8C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5538F3221BEF7A0001E8C95 /* AndroBar */;
+			targetProxy = C5538F4621BEF7A1001E8C95 /* PBXContainerItemProxy */;
+		};
+		C5538F5221BEF7A1001E8C95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C5538F3221BEF7A0001E8C95 /* AndroBar */;
+			targetProxy = C5538F5121BEF7A1001E8C95 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C5538F3C21BEF7A1001E8C95 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C5538F3D21BEF7A1001E8C95 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C5538F5721BEF7A1001E8C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C5538F5821BEF7A1001E8C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C5538F5A21BEF7A1001E8C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AndroBar/AndroBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AndroBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.androdev.AndroBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		C5538F5B21BEF7A1001E8C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = AndroBar/AndroBar.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AndroBar/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.androdev.AndroBar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		C5538F5D21BEF7A1001E8C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AndroBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.androdev.AndroBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndroBar.app/Contents/MacOS/AndroBar";
+			};
+			name = Debug;
+		};
+		C5538F5E21BEF7A1001E8C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AndroBarTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.androdev.AndroBarTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndroBar.app/Contents/MacOS/AndroBar";
+			};
+			name = Release;
+		};
+		C5538F6021BEF7A1001E8C95 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AndroBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.androdev.AndroBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = AndroBar;
+			};
+			name = Debug;
+		};
+		C5538F6121BEF7A1001E8C95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = AndroBarUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.androdev.AndroBarUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TEST_TARGET_NAME = AndroBar;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C5538F2E21BEF7A0001E8C95 /* Build configuration list for PBXProject "AndroBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5538F5721BEF7A1001E8C95 /* Debug */,
+				C5538F5821BEF7A1001E8C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5538F5921BEF7A1001E8C95 /* Build configuration list for PBXNativeTarget "AndroBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5538F5A21BEF7A1001E8C95 /* Debug */,
+				C5538F5B21BEF7A1001E8C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5538F5C21BEF7A1001E8C95 /* Build configuration list for PBXNativeTarget "AndroBarTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5538F5D21BEF7A1001E8C95 /* Debug */,
+				C5538F5E21BEF7A1001E8C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5538F5F21BEF7A1001E8C95 /* Build configuration list for PBXNativeTarget "AndroBarUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C5538F6021BEF7A1001E8C95 /* Debug */,
+				C5538F6121BEF7A1001E8C95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C5538F2B21BEF7A0001E8C95 /* Project object */;
+}
