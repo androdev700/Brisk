@@ -13,6 +13,10 @@
 		C5538F3E21BEF7A1001E8C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5538F3C21BEF7A1001E8C95 /* Main.storyboard */; };
 		C5538F4A21BEF7A1001E8C95 /* AndroBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F4921BEF7A1001E8C95 /* AndroBarTests.swift */; };
 		C5538F5521BEF7A1001E8C95 /* AndroBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F5421BEF7A1001E8C95 /* AndroBarUITests.swift */; };
+		C5538F6321BEFE4F001E8C95 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F6221BEFE4F001E8C95 /* WindowController.swift */; };
+		C5538F6521BF0ABC001E8C95 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F6421BF0ABC001E8C95 /* HomeViewController.swift */; };
+		C5538F6721BF0AC6001E8C95 /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F6621BF0AC6001E8C95 /* WorkViewController.swift */; };
+		C5538F6921BF0AD2001E8C95 /* LudacrisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F6821BF0AD2001E8C95 /* LudacrisViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +50,10 @@
 		C5538F5021BEF7A1001E8C95 /* AndroBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5538F5421BEF7A1001E8C95 /* AndroBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroBarUITests.swift; sourceTree = "<group>"; };
 		C5538F5621BEF7A1001E8C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C5538F6221BEFE4F001E8C95 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		C5538F6421BF0ABC001E8C95 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		C5538F6621BF0AC6001E8C95 /* WorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
+		C5538F6821BF0AD2001E8C95 /* LudacrisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LudacrisViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 			isa = PBXGroup;
 			children = (
 				C5538F3621BEF7A0001E8C95 /* AppDelegate.swift */,
+				C5538F6221BEFE4F001E8C95 /* WindowController.swift */,
+				C5538F6421BF0ABC001E8C95 /* HomeViewController.swift */,
+				C5538F6621BF0AC6001E8C95 /* WorkViewController.swift */,
+				C5538F6821BF0AD2001E8C95 /* LudacrisViewController.swift */,
 				C5538F3821BEF7A0001E8C95 /* ViewController.swift */,
 				C5538F3A21BEF7A1001E8C95 /* Assets.xcassets */,
 				C5538F3C21BEF7A1001E8C95 /* Main.storyboard */,
@@ -254,8 +266,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5538F6721BF0AC6001E8C95 /* WorkViewController.swift in Sources */,
 				C5538F3921BEF7A0001E8C95 /* ViewController.swift in Sources */,
+				C5538F6321BEFE4F001E8C95 /* WindowController.swift in Sources */,
 				C5538F3721BEF7A0001E8C95 /* AppDelegate.swift in Sources */,
+				C5538F6521BF0ABC001E8C95 /* HomeViewController.swift in Sources */,
+				C5538F6921BF0AD2001E8C95 /* LudacrisViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
