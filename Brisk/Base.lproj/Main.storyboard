@@ -11,11 +11,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="AndroBar" id="1Xt-HY-uBw">
+                            <menuItem title="Brisk" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="AndroBar" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="Brisk" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About AndroBar" id="5kV-Vb-QxS">
+                                        <menuItem title="About Brisk" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -29,7 +29,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide AndroBar" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide Brisk" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -47,7 +47,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit AndroBar" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit Brisk" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -59,7 +59,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="AndroBar Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="Brisk Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -140,7 +140,7 @@
                                 <rect key="frame" x="20" y="163" width="410" height="90"/>
                                 <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="Y8Y-rq-kx6">
                                     <rect key="frame" x="0.0" y="0.0" width="410" height="90"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" smartInsertDelete="YES" id="4tJ-dE-Aeh">
                                             <rect key="frame" x="0.0" y="0.0" width="412" height="90"/>
@@ -170,7 +170,7 @@
                                 <rect key="frame" x="20" y="42" width="410" height="88"/>
                                 <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="Dn3-cs-dFp">
                                     <rect key="frame" x="0.0" y="0.0" width="410" height="88"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" smartInsertDelete="YES" id="WfS-7D-bNH">
                                             <rect key="frame" x="0.0" y="0.0" width="410" height="88"/>
@@ -263,7 +263,7 @@
                                 <rect key="frame" x="20" y="165" width="410" height="90"/>
                                 <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="caI-jo-eU2">
                                     <rect key="frame" x="0.0" y="0.0" width="410" height="90"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" smartInsertDelete="YES" id="ZH4-HQ-So0">
                                             <rect key="frame" x="0.0" y="0.0" width="410" height="90"/>
@@ -293,7 +293,7 @@
                                 <rect key="frame" x="20" y="42" width="410" height="90"/>
                                 <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="Fb4-l4-vP3">
                                     <rect key="frame" x="0.0" y="0.0" width="410" height="90"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" smartInsertDelete="YES" id="GSp-fz-xBJ">
                                             <rect key="frame" x="0.0" y="0.0" width="410" height="90"/>
@@ -376,7 +376,7 @@
                                 <rect key="frame" x="20" y="165" width="410" height="90"/>
                                 <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="jjl-fC-uCz">
                                     <rect key="frame" x="0.0" y="0.0" width="410" height="90"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" smartInsertDelete="YES" id="XZt-Kz-jUA">
                                             <rect key="frame" x="0.0" y="0.0" width="410" height="90"/>
@@ -406,7 +406,7 @@
                                 <rect key="frame" x="20" y="42" width="410" height="90"/>
                                 <clipView key="contentView" drawsBackground="NO" copiesOnScroll="NO" id="kdT-Ij-D2V">
                                     <rect key="frame" x="0.0" y="0.0" width="410" height="90"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <textView importsGraphics="NO" richText="NO" verticallyResizable="YES" smartInsertDelete="YES" id="U8S-z5-NzD">
                                             <rect key="frame" x="0.0" y="0.0" width="410" height="90"/>

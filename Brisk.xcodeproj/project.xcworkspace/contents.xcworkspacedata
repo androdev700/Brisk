@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:AndroBar.xcodeproj">
+      location = "self:/Users/andro/Documents/GitHub/AndroBar/Brisk.xcodeproj">
    </FileRef>
 </Workspace>

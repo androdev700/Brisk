@@ -24,7 +24,7 @@ class WindowController: NSWindowController {
     
     override func windowDidLoad() {
         super.windowDidLoad()
-        window?.title = "AndroBar"
+        window?.title = "Brisk"
     }
     
     @objc func changeWorkModeBySegment(_ sender: NSSegmentedControl) {

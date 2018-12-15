@@ -11,45 +11,20 @@
 		C5538F3921BEF7A0001E8C95 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F3821BEF7A0001E8C95 /* ViewController.swift */; };
 		C5538F3B21BEF7A1001E8C95 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C5538F3A21BEF7A1001E8C95 /* Assets.xcassets */; };
 		C5538F3E21BEF7A1001E8C95 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C5538F3C21BEF7A1001E8C95 /* Main.storyboard */; };
-		C5538F4A21BEF7A1001E8C95 /* AndroBarTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F4921BEF7A1001E8C95 /* AndroBarTests.swift */; };
-		C5538F5521BEF7A1001E8C95 /* AndroBarUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F5421BEF7A1001E8C95 /* AndroBarUITests.swift */; };
 		C5538F6321BEFE4F001E8C95 /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F6221BEFE4F001E8C95 /* WindowController.swift */; };
 		C5538F6521BF0ABC001E8C95 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F6421BF0ABC001E8C95 /* HomeViewController.swift */; };
 		C5538F6721BF0AC6001E8C95 /* WorkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F6621BF0AC6001E8C95 /* WorkViewController.swift */; };
 		C5538F6921BF0AD2001E8C95 /* LudacrisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5538F6821BF0AD2001E8C95 /* LudacrisViewController.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		C5538F4621BEF7A1001E8C95 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5538F2B21BEF7A0001E8C95 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C5538F3221BEF7A0001E8C95;
-			remoteInfo = AndroBar;
-		};
-		C5538F5121BEF7A1001E8C95 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = C5538F2B21BEF7A0001E8C95 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C5538F3221BEF7A0001E8C95;
-			remoteInfo = AndroBar;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		C5538F3321BEF7A0001E8C95 /* AndroBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndroBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5538F3321BEF7A0001E8C95 /* Brisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Brisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C5538F3621BEF7A0001E8C95 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C5538F3821BEF7A0001E8C95 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C5538F3A21BEF7A1001E8C95 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C5538F3D21BEF7A1001E8C95 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C5538F3F21BEF7A1001E8C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5538F4021BEF7A1001E8C95 /* AndroBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AndroBar.entitlements; sourceTree = "<group>"; };
-		C5538F4521BEF7A1001E8C95 /* AndroBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5538F4921BEF7A1001E8C95 /* AndroBarTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroBarTests.swift; sourceTree = "<group>"; };
-		C5538F4B21BEF7A1001E8C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C5538F5021BEF7A1001E8C95 /* AndroBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndroBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C5538F5421BEF7A1001E8C95 /* AndroBarUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndroBarUITests.swift; sourceTree = "<group>"; };
-		C5538F5621BEF7A1001E8C95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C5538F6221BEFE4F001E8C95 /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		C5538F6421BF0ABC001E8C95 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		C5538F6621BF0AC6001E8C95 /* WorkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkViewController.swift; sourceTree = "<group>"; };
@@ -64,29 +39,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5538F4221BEF7A1001E8C95 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5538F4D21BEF7A1001E8C95 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		C5538F2A21BEF7A0001E8C95 = {
 			isa = PBXGroup;
 			children = (
-				C5538F3521BEF7A0001E8C95 /* AndroBar */,
-				C5538F4821BEF7A1001E8C95 /* AndroBarTests */,
-				C5538F5321BEF7A1001E8C95 /* AndroBarUITests */,
+				C5538F3521BEF7A0001E8C95 /* Brisk */,
 				C5538F3421BEF7A0001E8C95 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -94,14 +53,12 @@
 		C5538F3421BEF7A0001E8C95 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C5538F3321BEF7A0001E8C95 /* AndroBar.app */,
-				C5538F4521BEF7A1001E8C95 /* AndroBarTests.xctest */,
-				C5538F5021BEF7A1001E8C95 /* AndroBarUITests.xctest */,
+				C5538F3321BEF7A0001E8C95 /* Brisk.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C5538F3521BEF7A0001E8C95 /* AndroBar */ = {
+		C5538F3521BEF7A0001E8C95 /* Brisk */ = {
 			isa = PBXGroup;
 			children = (
 				C5538F3621BEF7A0001E8C95 /* AppDelegate.swift */,
@@ -115,33 +72,15 @@
 				C5538F3F21BEF7A1001E8C95 /* Info.plist */,
 				C5538F4021BEF7A1001E8C95 /* AndroBar.entitlements */,
 			);
-			path = AndroBar;
-			sourceTree = "<group>";
-		};
-		C5538F4821BEF7A1001E8C95 /* AndroBarTests */ = {
-			isa = PBXGroup;
-			children = (
-				C5538F4921BEF7A1001E8C95 /* AndroBarTests.swift */,
-				C5538F4B21BEF7A1001E8C95 /* Info.plist */,
-			);
-			path = AndroBarTests;
-			sourceTree = "<group>";
-		};
-		C5538F5321BEF7A1001E8C95 /* AndroBarUITests */ = {
-			isa = PBXGroup;
-			children = (
-				C5538F5421BEF7A1001E8C95 /* AndroBarUITests.swift */,
-				C5538F5621BEF7A1001E8C95 /* Info.plist */,
-			);
-			path = AndroBarUITests;
+			path = Brisk;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C5538F3221BEF7A0001E8C95 /* AndroBar */ = {
+		C5538F3221BEF7A0001E8C95 /* Brisk */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C5538F5921BEF7A1001E8C95 /* Build configuration list for PBXNativeTarget "AndroBar" */;
+			buildConfigurationList = C5538F5921BEF7A1001E8C95 /* Build configuration list for PBXNativeTarget "Brisk" */;
 			buildPhases = (
 				C5538F2F21BEF7A0001E8C95 /* Sources */,
 				C5538F3021BEF7A0001E8C95 /* Frameworks */,
@@ -151,46 +90,10 @@
 			);
 			dependencies = (
 			);
-			name = AndroBar;
+			name = Brisk;
 			productName = AndroBar;
-			productReference = C5538F3321BEF7A0001E8C95 /* AndroBar.app */;
+			productReference = C5538F3321BEF7A0001E8C95 /* Brisk.app */;
 			productType = "com.apple.product-type.application";
-		};
-		C5538F4421BEF7A1001E8C95 /* AndroBarTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C5538F5C21BEF7A1001E8C95 /* Build configuration list for PBXNativeTarget "AndroBarTests" */;
-			buildPhases = (
-				C5538F4121BEF7A1001E8C95 /* Sources */,
-				C5538F4221BEF7A1001E8C95 /* Frameworks */,
-				C5538F4321BEF7A1001E8C95 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C5538F4721BEF7A1001E8C95 /* PBXTargetDependency */,
-			);
-			name = AndroBarTests;
-			productName = AndroBarTests;
-			productReference = C5538F4521BEF7A1001E8C95 /* AndroBarTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		C5538F4F21BEF7A1001E8C95 /* AndroBarUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C5538F5F21BEF7A1001E8C95 /* Build configuration list for PBXNativeTarget "AndroBarUITests" */;
-			buildPhases = (
-				C5538F4C21BEF7A1001E8C95 /* Sources */,
-				C5538F4D21BEF7A1001E8C95 /* Frameworks */,
-				C5538F4E21BEF7A1001E8C95 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C5538F5221BEF7A1001E8C95 /* PBXTargetDependency */,
-			);
-			name = AndroBarUITests;
-			productName = AndroBarUITests;
-			productReference = C5538F5021BEF7A1001E8C95 /* AndroBarUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -205,17 +108,9 @@
 					C5538F3221BEF7A0001E8C95 = {
 						CreatedOnToolsVersion = 10.1;
 					};
-					C5538F4421BEF7A1001E8C95 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = C5538F3221BEF7A0001E8C95;
-					};
-					C5538F4F21BEF7A1001E8C95 = {
-						CreatedOnToolsVersion = 10.1;
-						TestTargetID = C5538F3221BEF7A0001E8C95;
-					};
 				};
 			};
-			buildConfigurationList = C5538F2E21BEF7A0001E8C95 /* Build configuration list for PBXProject "AndroBar" */;
+			buildConfigurationList = C5538F2E21BEF7A0001E8C95 /* Build configuration list for PBXProject "Brisk" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -228,9 +123,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C5538F3221BEF7A0001E8C95 /* AndroBar */,
-				C5538F4421BEF7A1001E8C95 /* AndroBarTests */,
-				C5538F4F21BEF7A1001E8C95 /* AndroBarUITests */,
+				C5538F3221BEF7A0001E8C95 /* Brisk */,
 			);
 		};
 /* End PBXProject section */
@@ -242,20 +135,6 @@
 			files = (
 				C5538F3B21BEF7A1001E8C95 /* Assets.xcassets in Resources */,
 				C5538F3E21BEF7A1001E8C95 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5538F4321BEF7A1001E8C95 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5538F4E21BEF7A1001E8C95 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,36 +154,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C5538F4121BEF7A1001E8C95 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5538F4A21BEF7A1001E8C95 /* AndroBarTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C5538F4C21BEF7A1001E8C95 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C5538F5521BEF7A1001E8C95 /* AndroBarUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		C5538F4721BEF7A1001E8C95 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C5538F3221BEF7A0001E8C95 /* AndroBar */;
-			targetProxy = C5538F4621BEF7A1001E8C95 /* PBXContainerItemProxy */;
-		};
-		C5538F5221BEF7A1001E8C95 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = C5538F3221BEF7A0001E8C95 /* AndroBar */;
-			targetProxy = C5538F5121BEF7A1001E8C95 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		C5538F3C21BEF7A1001E8C95 /* Main.storyboard */ = {
@@ -440,12 +290,12 @@
 				CODE_SIGN_ENTITLEMENTS = AndroBar/AndroBar.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AndroBar/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Brisk/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.androdev.AndroBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.androdev.Brisk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 			};
@@ -458,99 +308,21 @@
 				CODE_SIGN_ENTITLEMENTS = AndroBar/AndroBar.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AndroBar/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Brisk/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.androdev.AndroBar;
+				PRODUCT_BUNDLE_IDENTIFIER = com.androdev.Brisk;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-			};
-			name = Release;
-		};
-		C5538F5D21BEF7A1001E8C95 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AndroBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.androdev.AndroBarTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndroBar.app/Contents/MacOS/AndroBar";
-			};
-			name = Debug;
-		};
-		C5538F5E21BEF7A1001E8C95 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AndroBarTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.androdev.AndroBarTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndroBar.app/Contents/MacOS/AndroBar";
-			};
-			name = Release;
-		};
-		C5538F6021BEF7A1001E8C95 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AndroBarUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.androdev.AndroBarUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TEST_TARGET_NAME = AndroBar;
-			};
-			name = Debug;
-		};
-		C5538F6121BEF7A1001E8C95 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = AndroBarUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.androdev.AndroBarUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TEST_TARGET_NAME = AndroBar;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C5538F2E21BEF7A0001E8C95 /* Build configuration list for PBXProject "AndroBar" */ = {
+		C5538F2E21BEF7A0001E8C95 /* Build configuration list for PBXProject "Brisk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5538F5721BEF7A1001E8C95 /* Debug */,
@@ -559,29 +331,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C5538F5921BEF7A1001E8C95 /* Build configuration list for PBXNativeTarget "AndroBar" */ = {
+		C5538F5921BEF7A1001E8C95 /* Build configuration list for PBXNativeTarget "Brisk" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C5538F5A21BEF7A1001E8C95 /* Debug */,
 				C5538F5B21BEF7A1001E8C95 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C5538F5C21BEF7A1001E8C95 /* Build configuration list for PBXNativeTarget "AndroBarTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C5538F5D21BEF7A1001E8C95 /* Debug */,
-				C5538F5E21BEF7A1001E8C95 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C5538F5F21BEF7A1001E8C95 /* Build configuration list for PBXNativeTarget "AndroBarUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C5538F6021BEF7A1001E8C95 /* Debug */,
-				C5538F6121BEF7A1001E8C95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
