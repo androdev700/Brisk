@@ -85,7 +85,7 @@ extension WindowController: NSTouchBarDelegate {
         case NSTouchBarItem.Identifier.workStyle:
             let fontStyleItem = NSCustomTouchBarItem(identifier: identifier)
             fontStyleItem.customizationLabel = "Font Style"
-            let fontStyleSegment = NSSegmentedControl(labels: ["Home", "Work", "Ludacris"], trackingMode: .momentary, target: self, action: #selector(changeWorkModeBySegment))
+            let fontStyleSegment = NSSegmentedControl(labels: ["Home 🏠", "Work 🏢", "Ludacris 😎"], trackingMode: .momentary, target: self, action: #selector(changeWorkModeBySegment))
             fontStyleItem.view = fontStyleSegment
             return fontStyleItem
         default: return nil
