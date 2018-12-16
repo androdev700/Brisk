@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Lato:100|Montserrat:900');
+@import url('https://fonts.googleapis.com/css?family=Lato:300|Montserrat:900');
 /* 
 font-family: 'Lato', sans-serif;
 font-family: 'Montserrat', sans-serif;
@@ -14,9 +14,9 @@ html,body{
 }
 *{
      font-family: var(--primary-font);
-    font-weight: 100;
+    font-weight: 300;
     box-sizing: border-box;
-    color: rgb(66, 66, 66);
+    color: rgb(31, 31, 31);
 }
 h1,h2,h3,h4,h5,h6{
     font-family: var(--secondary-font);
@@ -71,7 +71,7 @@ h1,h2,h3,h4,h5,h6{
 .download-button{
     color:white;
     background: linear-gradient(to top,rgb(34, 34, 34),rgb(22, 22, 22));
-    border:1px solid gray;
+    border:1px solid rgb(41, 41, 41);
     padding: 15px;
     font-family: var(--secondary-font);
     border-radius: 5px;
@@ -82,5 +82,5 @@ ul,li{
 }
 a,a:hover,a:disabled,a:default{
     text-decoration: none;
-    color:lightgrey;
+    color:rgb(44, 44, 44);
 }
