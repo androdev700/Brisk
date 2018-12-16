@@ -5,4 +5,4 @@
 
 Touch Bar App to launch set of applications and URLs based on different profiles.
 
-Know more about brisk, go to [androdev700.github.io/brisk](https://www.androdev700.github.io/brisk)
+Know more about brisk, go to [androdev700.github.io/brisk](https://androdev700.github.io/brisk)
